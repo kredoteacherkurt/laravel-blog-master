@@ -1,0 +1,31 @@
+##LARAVEL_BLOG##
+=> INSTALLATION:
+composer create-project laravel/laravel laravel-blog-v10-training
+
+=> UPDATE .ENV
+
+=> [COMMAND] php artisan migrate
+
+=> Edit the users table migration
+
+=> php artisan migrate:fresh
+
+=> JavaScript & CSS Scaffolding 
+
+composer require laravel/ui (to Install Laravel UI)
+
+php artisan ui bootstrap --auth (to Generate Basic Login / Registration Views)
+
+npm install (to Install Node Modules)
+
+npm run dev (to Compile Assets For Development) *** run it on background for laravel version 10
+
+* npm run watch (to Watching Assets For Changes)
+* npm run watch-poll (Watching Assets For Changes)
+
+=> php artisan serve to new terminal (to Run The Development Server)
+
+
+=> php artisan make:controller PostsController (to Create a Controller)
+
+=> public/css/app.css (to Edit the CSS) *** laravel version 10 uses resources/css/app.css
